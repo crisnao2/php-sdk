@@ -1,1 +1,22 @@
-{}
+{
+    "name": "crisnao2/meli",
+    "description": "MercadoLibre's PHP SDK",
+    "authors": [
+        {
+            "name": "Cristiano Soares",
+            "email": "crisnao2@yahoo.com.br",
+            "homepage": "https://comerciobr.com/"
+        }
+    ],
+    "license": "MIT",
+    "homepage": "https://comerciobr.com/",
+    "require": {
+        "php": ">=5.6",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "files": [
+            "Meli/meli.php"
+        ]
+    }
+}
